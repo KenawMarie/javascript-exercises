@@ -2,7 +2,7 @@ const reverseString = function(string) {
     let splitted=string.split('');
     let reverseArray=''
 for(let i=0;i< string.length;i++){
-   let a= reverseArray += splitted.pop()
+    reverseArray += splitted.pop()
   
 }
    return reverseArray
