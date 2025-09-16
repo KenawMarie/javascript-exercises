@@ -1,5 +1,5 @@
 const palindromes = function (str) {
-     let string= a.replaceAll(' ','').replaceAll('!','').replaceAll(',','').replaceAll('.','')
+     let string= str.replaceAll(' ','').replaceAll('!','').replaceAll(',','').replaceAll('.','')
      let arr=string.split('').map((e)=>e.toLowerCase())
      let reverse=arr.slice().reverse()
      let array=[]
@@ -17,6 +17,6 @@ const palindromes = function (str) {
    else{
      return true
     }
-
+}
 // Do not edit below this line
 module.exports = palindromes;
